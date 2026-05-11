@@ -498,7 +498,7 @@ COMMIT;
 SELECT 'Transaction réussie : exposition créée, œuvres ajoutées et prix mis à jour.' AS message;
 */
 
--- ---------------------------------------------------------------------
+-- -----------------artist----------------------------------------------------
 -- FIN DU SCRIPT
 -- ---------------------------------------------------------------------
 SELECT '=== Base de données ARTCONNECT créée avec succès ===' AS '';

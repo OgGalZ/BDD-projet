@@ -14,6 +14,11 @@
         <Button text="Search" onAction="#handleSearch" />
         <Button text="Reset" onAction="#handleReset" />
     </HBox>
+    <HBox spacing="10.0" alignment="CENTER_RIGHT">
+        <Button text="+ Add" onAction="#handleAdd" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" />
+        <Button text="Edit" onAction="#handleEdit" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+        <Button text="Delete" onAction="#handleDelete" style="-fx-background-color: #f44336; -fx-text-fill: white;" />
+    </HBox>
     <TableView fx:id="artistTable" VBox.vgrow="ALWAYS">
         <columns>
             <TableColumn fx:id="nameColumn" text="Name" prefWidth="200" />
